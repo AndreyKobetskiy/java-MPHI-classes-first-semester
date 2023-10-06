@@ -17,6 +17,7 @@ public class Solution19 {
         map.put("Geveyk", "Gevey");
         map.put("Hugsk", "Hugs");
         printKeys(map);
+        System.out.println("~~~");
         printValues(map);
     }
     public static void printKeys(Map<String, String> map) {

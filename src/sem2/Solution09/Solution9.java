@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Solution9 {
     public static void main(String[] args) throws Exception {
-        for (int i = 0; i < 1; i++){
+        for (int i = 0; i < 2; i++){
             notMain();
         }
     }
@@ -21,5 +21,6 @@ public class Solution9 {
                 return;
             }
         }
+        System.out.println("Sorted");
     }
 }

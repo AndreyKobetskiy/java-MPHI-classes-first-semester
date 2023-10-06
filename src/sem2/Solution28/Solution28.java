@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Solution28 {
+    // with arrayList O(n) + O(nlogn) = O(nlogn)
+    // with treeSet O(n) * O(logn) = O(nlogn)
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         List<String> list = new ArrayList<>();
@@ -13,4 +15,5 @@ public class Solution28 {
         Collections.sort(list);
         for (String word: list) System.out.println(word);
     }
+
 }

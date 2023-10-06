@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Solution12 {
     public static void main(String[] args){
         notMain();
+        notMain();
     }
     public static void notMain(){
         Scanner scanner = new Scanner(System.in);

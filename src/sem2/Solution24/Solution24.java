@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Solution24 {
     public static void main(String[] args) {
         notMain();
+        notMain();
     }
 
     public static void notMain(){
@@ -23,8 +24,8 @@ public class Solution24 {
             else {
                 ans = Math.max(ans, counter);
                 counter = 1;
-                previous = list.get(1);
             }
+            previous = list.get(i);
 
         }
         System.out.println(ans);

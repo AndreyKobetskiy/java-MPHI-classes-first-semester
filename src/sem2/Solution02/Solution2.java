@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Solution2 {
     public static void main(String[] args) throws Exception {
-        for (int i = 0; i < 2; i++){
+        for (int i = 0; i < 1; i++){
             notMain(args);
         }
     }

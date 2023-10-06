@@ -17,5 +17,9 @@ public class Solution22 {
         return new LinkedList<>();
     }
     public static void main(String[] args) {
+        getListForGet();
+        getListForSet();
+        getListForAddOrInsert();
+        getListForRemove();
     }
 }
