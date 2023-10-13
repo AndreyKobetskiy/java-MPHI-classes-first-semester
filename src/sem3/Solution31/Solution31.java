@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class Solution31 {
-    //TODO
+    //я тут что-то не понял, но что-то сделал
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println((new StringObject().getInstance(reader.readLine()).getData()));
